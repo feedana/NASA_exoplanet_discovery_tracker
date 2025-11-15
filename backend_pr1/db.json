@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Kepler-186 f",
-      "image": "https://example.com/kepler186f.jpg",
+      "image": "images/kepler186f.jpg",
       "distance": "580 light‑years",
       "year": 2014,
       "type": "Super‑Earth",
@@ -17,7 +17,7 @@
     {
       "id": 2,
       "name": "Proxima Centauri b",
-      "image": "https://example.com/proxima_b.jpg",
+      "image": "images/proxima_b.jpg",
       "distance": "4.24 light‑years",
       "year": 2016,
       "type": "Super‑Earth",
@@ -31,7 +31,7 @@
     {
       "id": 3,
       "name": "HD 209458 b (Osiris)",
-      "image": "https://example.com/hd209458b.jpg",
+      "image": "images/osiris.jpeg",
       "distance": "159 light‑years",
       "year": 1999,
       "type": "Hot Jupiter",
@@ -45,7 +45,7 @@
     {
       "id": 4,
       "name": "TRAPPIST-1 b",
-      "image": "https://example.com/trappist1b.jpg",
+      "image": "images/trappist1b.jpeg",
       "distance": "39 light‑years",
       "year": 2016,
       "type": "Earth-size",
@@ -59,7 +59,7 @@
     {
       "id": 5,
       "name": "TRAPPIST-1 c",
-      "image": "https://example.com/trappist1c.jpg",
+      "image": "images/trappist1c.jpg",
       "distance": "39 light‑years",
       "year": 2016,
       "type": "Earth-size",
@@ -73,7 +73,7 @@
     {
       "id": 6,
       "name": "TRAPPIST-1 d",
-      "image": "https://example.com/trappist1d.jpg",
+      "image": "images/trappist1d.jpg",
       "distance": "39 light‑years",
       "year": 2016,
       "type": "Earth-size",
