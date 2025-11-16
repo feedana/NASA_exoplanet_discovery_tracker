@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Panel - Exoplanets</title>
+  
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+  <h1>Admin Panel - Exoplanets</h1>
+
+  <div class="container">
+
+    <button class="add-btn" onclick="openModal()">+ Add Exoplanet</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Distance</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="planet-table">
+        <!-- dynamic rows here -->
+      </tbody>
+    </table>
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h3>Add New Exoplanet</h3>
+      <input type="text" id="name" placeholder="Planet Name">
+      <input type="text" id="distance" placeholder="Distance (light years)">
+      <textarea id="description" placeholder="Short Description"></textarea>
+      <button class="save-btn" onclick="savePlanet()">Save</button>
+    </div>
+  </div>
+
+  <script>
+    const modal = document.getElementById("modal");
+    const table = document.getElementById("planet-table");
+
+    function openModal() {
+      modal.style.display = "flex";
+    }
+
+    function closeModal() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target === modal) closeModal();
+    };
+
+    // Fetch planets
+    function loadPlanets() {
+      fetch("http://localhost:3000/exoplanets")
+        .then(res => res.json())
+        .then(data => {
+          table.innerHTML = "";
+          data.forEach(planet => {
+            table.innerHTML += `
+              <tr>
+                <td>${planet.id}</td>
+                <td>${planet.name}</td>
+                <td>${planet.distance}</td>
+                <td>
+                  <button class="delete-btn" onclick="deletePlanet(${planet.id})">Delete</button>
+                </td>
+              </tr>
+            `;
+          });
+        });
+    }
+
+    loadPlanets();
+
+    // Add
+    function savePlanet() {
+      const newPlanet = {
+        name: document.getElementById("name").value,
+        distance: document.getElementById("distance").value,
+        description: document.getElementById("description").value
+      };
+
+      fetch("http://localhost:3000/exoplanets", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(newPlanet)
+      })
+      .then(() => {
+        closeModal();
+        loadPlanets();
+      });
+    }
+
+    // Delete
+    function deletePlanet(id) {
+      fetch(`http://localhost:3000/exoplanets/${id}`, { method: "DELETE" })
+        .then(() => loadPlanets());
+    }
+  </script>
+
+  <script src="admin.js"></script>
+</body>
+</html>

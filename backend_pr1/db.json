@@ -87,7 +87,7 @@
     {
       "id": 7,
       "name": "TRAPPIST-1 e",
-      "image": "https://example.com/trappist1e.jpg",
+      "image": "images/trappist1e.jpg",
       "distance": "39 light‑years",
       "year": 2017,
       "type": "Earth-size",
@@ -101,7 +101,7 @@
     {
       "id": 8,
       "name": "GJ 667 C c",
-      "image": "https://example.com/gj667cc.jpg",
+      "image": "images/gj667cc.jpg",
       "distance": "23.6 light‑years",
       "year": 2011,
       "type": "Super‑Earth",
@@ -115,7 +115,7 @@
     {
       "id": 9,
       "name": "Kepler-22 b",
-      "image": "https://example.com/kepler22b.jpg",
+      "image": "images/kepler22b.jpg",
       "distance": "620 light‑years",
       "year": 2011,
       "type": "Mini-Neptune",
@@ -129,7 +129,7 @@
     {
       "id": 10,
       "name": "Kepler-10 b",
-      "image": "https://example.com/kepler10b.jpg",
+      "image": "images/kepler10b.jpg",
       "distance": "564 light‑years",
       "year": 2011,
       "type": "Rocky / Earth-like",
@@ -143,7 +143,7 @@
     {
       "id": 11,
       "name": "Kepler-11 f",
-      "image": "https://example.com/kepler11f.jpg",
+      "image": "images/kepler11f.jpg",
       "distance": "2,000+ light‑years",
       "year": 2011,
       "type": "Mini-Neptune",
@@ -157,7 +157,7 @@
     {
       "id": 12,
       "name": "Kepler-11 e",
-      "image": "https://example.com/kepler11e.jpg",
+      "image": "images/kepler11e.jpg",
       "distance": "2,000+ light‑years",
       "year": 2011,
       "type": "Mini-Neptune",
@@ -171,7 +171,7 @@
     {
       "id": 13,
       "name": "HD 189733 b",
-      "image": "https://example.com/hd189733b.jpg",
+      "image": "images/hd189733b.jpg",
       "distance": "64.5 light‑years",
       "year": 2005,
       "type": "Hot Jupiter",
@@ -185,7 +185,7 @@
     {
       "id": 14,
       "name": "55 Cancri e",
-      "image": "https://example.com/55cancrie.jpg",
+      "image": "images/55cancrie.jpg",
       "distance": "41 light‑years",
       "year": 2004,
       "type": "Super‑Earth",
@@ -199,7 +199,7 @@
     {
       "id": 15,
       "name": "Gliese 1214 b",
-      "image": "https://example.com/gliese1214b.jpg",
+      "image": "images/gliese1214b.jpg",
       "distance": "48.9 light‑years",
       "year": 2009,
       "type": "Mini-Neptune / Water world?",
@@ -213,7 +213,7 @@
     {
       "id": 16,
       "name": "Kepler-62 f",
-      "image": "https://example.com/kepler62f.jpg",
+      "image": "images/kepler62f.jpg",
       "distance": "1,200 light‑years",
       "year": 2013,
       "type": "Super‑Earth",
@@ -227,7 +227,7 @@
     {
       "id": 17,
       "name": "Kepler-62 e",
-      "image": "https://example.com/kepler62e.jpg",
+      "image": "images/kepler62e.jpg",
       "distance": "1,200 light‑years",
       "year": 2013,
       "type": "Super‑Earth",
@@ -241,7 +241,7 @@
     {
       "id": 18,
       "name": "WASP-12 b",
-      "image": "https://example.com/wasp12b.jpg",
+      "image": "images/wasp12b.jpg",
       "distance": "1,400 light‑years",
       "year": 2008,
       "type": "Hot Jupiter",
@@ -255,7 +255,7 @@
     {
       "id": 19,
       "name": "GJ 504 b",
-      "image": "https://example.com/gj504b.jpg",
+      "image": "images/gj504b.jpg",
       "distance": "57 light‑years",
       "year": 2013,
       "type": "Gas Giant / Super-Jupiter",
@@ -269,7 +269,7 @@
     {
       "id": 20,
       "name": "Gaia-4 b",
-      "image": "https://example.com/gaia4b.jpg",
+      "image": "images/gaia4b.jpg",
       "distance": "244 light‑years",
       "year": 2024,
       "type": "Super-Jupiter",
