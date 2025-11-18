@@ -1,7 +1,7 @@
 {
   "exoplanets": [
     {
-      "id": "2",
+      "id": 2,
       "name": "Proxima Centauri b",
       "image": "images/proxima_b.jpg",
       "distance": "4.24 light‑years",
@@ -15,7 +15,7 @@
       "description": "Proxima Centauri b orbits the nearest star to the Sun, Proxima Centauri, at ~0.048 AU. Its mass is ~1.05 Earth masses (minimum), discovered via Doppler spectroscopy. :contentReference[oaicite:1]{index=1}"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "HD 209458 b (Osiris)",
       "image": "images/osiris.jpeg",
       "distance": "159 light‑years",
@@ -29,7 +29,7 @@
       "description": "HD 209458 b (Osiris) was discovered in 1999. It's a gas giant very close to its star (period ~3.5 days), and was among the first where an atmosphere was studied. :contentReference[oaicite:2]{index=2}"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "TRAPPIST-1 b",
       "image": "images/trappist1b.jpeg",
       "distance": "39 light‑years",
@@ -43,7 +43,7 @@
       "description": "TRAPPIST-1 b is the innermost of the seven Earth-size planets in the TRAPPIST-1 system, orbiting its ultracool dwarf star very rapidly."
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "TRAPPIST-1 c",
       "image": "images/trappist1c.jpg",
       "distance": "39 light‑years",
@@ -57,7 +57,7 @@
       "description": "TRAPPIST-1 c orbits its host star in about 2.4 days and is slightly more massive than Earth."
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "TRAPPIST-1 d",
       "image": "images/trappist1d.jpg",
       "distance": "39 light‑years",
@@ -71,7 +71,7 @@
       "description": "TRAPPIST-1 d is one of the lighter and smaller planets in the TRAPPIST-1 system, with a very short orbital period."
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "TRAPPIST-1 e",
       "image": "images/trappist1e.jpg",
       "distance": "39 light‑years",
@@ -85,7 +85,7 @@
       "description": "TRAPPIST-1 e lies in a part of its system that may allow for temperate conditions; it's one of the best candidates for habitability in the TRAPPIST-1 system."
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "GJ 667 C c",
       "image": "images/gj667cc.jpg",
       "distance": "23.6 light‑years",
@@ -99,7 +99,7 @@
       "description": "GJ 667 C c orbits a red dwarf star in a triple-star system. It is one of the more interesting super-Earths in a potential habitable zone."
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "Kepler-22 b",
       "image": "images/kepler22b.jpg",
       "distance": "620 light‑years",
@@ -113,7 +113,7 @@
       "description": "Kepler-22 b was discovered by the Kepler Space Telescope and is a larger-than-Earth planet in its star’s habitable zone."
     },
     {
-      "id": "10",
+      "id": 10,
       "name": "Kepler-10 b",
       "image": "images/kepler10b.jpg",
       "distance": "564 light‑years",
@@ -127,7 +127,7 @@
       "description": "Kepler‑10 b is a dense, rocky exoplanet that orbits extremely close to its star, completing a full orbit in under a day."
     },
     {
-      "id": "11",
+      "id": 11,
       "name": "Kepler-11 f",
       "image": "images/kepler11f.jpg",
       "distance": "2,000+ light‑years",
@@ -141,7 +141,7 @@
       "description": "Kepler-11 f is part of a tightly packed planetary system with six transiting planets, all discovered by Kepler."
     },
     {
-      "id": "12",
+      "id": 12,
       "name": "Kepler-11 e",
       "image": "images/kepler11e.jpg",
       "distance": "2,000+ light‑years",
@@ -155,7 +155,7 @@
       "description": "Kepler-11 e is one of the more massive planets in the Kepler-11 system, contributing to the system’s dynamical interactions."
     },
     {
-      "id": "13",
+      "id": 13,
       "name": "HD 189733 b",
       "image": "images/hd189733b.jpg",
       "distance": "64.5 light‑years",
@@ -169,7 +169,7 @@
       "description": "HD 189733 b is a well-known hot Jupiter with a very short orbital period, and has been extensively studied for its atmospheric composition (including detection of water vapor, etc.)."
     },
     {
-      "id": "14",
+      "id": 14,
       "name": "55 Cancri e",
       "image": "images/55cancrie.jpg",
       "distance": "41 light‑years",
@@ -183,7 +183,7 @@
       "description": "55 Cancri e is an extreme planet: very close to its star, with an orbital period less than a day, and likely rocky, possibly with a lava surface."
     },
     {
-      "id": "15",
+      "id": 15,
       "name": "Gliese 1214 b",
       "image": "images/gliese1214b.jpg",
       "distance": "48.9 light‑years",
@@ -197,7 +197,7 @@
       "description": "Gliese 1214 b is one of the most studied mini-Neptunes / water world candidates, because its radius and mass suggest it’s not purely rocky."
     },
     {
-      "id": "16",
+      "id": 16,
       "name": "Kepler-62 f",
       "image": "images/kepler62f.jpg",
       "distance": "1,200 light‑years",
@@ -211,7 +211,7 @@
       "description": "Kepler-62 f is in the outer region of its star’s habitable zone. It’s one of the Kepler mission’s most famous potentially habitable planets."
     },
     {
-      "id": "17",
+      "id": 17,
       "name": "Kepler-62 e",
       "image": "images/kepler62e.jpg",
       "distance": "1,200 light‑years",
@@ -225,7 +225,7 @@
       "description": "Kepler-62 e orbits closer than Kepler-62 f and is also considered in studies of potentially habitable worlds."
     },
     {
-      "id": "18",
+      "id": 18,
       "name": "WASP-12 b",
       "image": "images/wasp12b.jpg",
       "distance": "1,400 light‑years",
@@ -239,7 +239,7 @@
       "description": "WASP-12 b is one of the most inflated hot Jupiters known — its large radius suggests it’s highly irradiated and strongly heated by its host star."
     },
     {
-      "id": "19",
+      "id": 19,
       "name": "GJ 504 b",
       "image": "images/gj504b.jpg",
       "distance": "57 light‑years",
@@ -253,7 +253,7 @@
       "description": "GJ 504 b is a super-Jupiter detected via direct imaging. It orbits at a large separation, making it easier to image directly."
     },
     {
-      "id": "20",
+      "id": 20,
       "name": "Gaia-4 b",
       "image": "images/gaia4b.jpg",
       "distance": "244 light‑years",
