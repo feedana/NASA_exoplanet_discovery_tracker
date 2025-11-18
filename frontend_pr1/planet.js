@@ -1,11 +1,9 @@
-// 1. Read ID from URL
+
 const urlParams = new URLSearchParams(window.location.search);
 const planetId = urlParams.get("id");
 
-// 2. Select container
 const planetBox = document.getElementById("planetDetails");
 
-// 3. Fetch data from JSON Server
 fetch(`http://localhost:3000/exoplanets/${planetId}`)
     .then(res => res.json())
     .then(planet => {
@@ -14,7 +12,7 @@ fetch(`http://localhost:3000/exoplanets/${planetId}`)
             return;
         }
 
-        // 4. Render dynamic content
+        // 4. Dynamic
         planetBox.innerHTML = `
             <img src="${planet.image}" class="planet-img" alt="${planet.name}">
             

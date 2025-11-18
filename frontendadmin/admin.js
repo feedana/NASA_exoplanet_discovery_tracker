@@ -14,7 +14,6 @@ window.onclick = function(event) {
   if (event.target === modal) closeModal();
 };
 
-// Load planets
 function loadPlanets() {
   fetch("http://localhost:3000/exoplanets")
     .then(res => res.json())
@@ -37,7 +36,7 @@ function loadPlanets() {
 
 loadPlanets();
 
-// Save new planet
+// Save new 
 function savePlanet() {
   const newPlanet = {
     name: document.getElementById("name").value,

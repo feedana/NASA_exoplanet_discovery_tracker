@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Admin Panel - Exoplanets</title>
+  <title>Admin Panel- Exoplanets</title>
   
   <link rel="stylesheet" href="admin.css">
 </head>
 <body>
 
-  <h1>Admin Panel - Exoplanets</h1>
+  <h1>Admin Panel</h1>
 
   <div class="container">
 
@@ -25,7 +25,6 @@
         </tr>
       </thead>
       <tbody id="planet-table">
-        <!-- dynamic rows here -->
       </tbody>
     </table>
 
@@ -58,7 +57,7 @@
       if (event.target === modal) closeModal();
     };
 
-    // Fetch planets
+    
     function loadPlanets() {
       fetch("http://localhost:3000/exoplanets")
         .then(res => res.json())
